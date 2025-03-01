@@ -1,0 +1,16 @@
+{
+  "name": "financial-literacy-game",
+  "version": "1.0.0",
+  "description": "## Overview The Financial Literacy Game is an interactive application designed to educate players about financial concepts through engaging gameplay.",
+  "main": "jest.config.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {	
+    "start": "node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
