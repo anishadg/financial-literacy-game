@@ -1,4 +1,4 @@
-/*financial-literacy-game
+/* financial-literacy-game
 ├── src
 │   ├── app.js
 │   ├── components

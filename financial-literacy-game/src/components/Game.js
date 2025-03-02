@@ -1,23 +1,13 @@
-// financial-literacy-game
-// ├── src
-// │   ├── app.js
-// │   ├── components
-// │   │   ├── Game.js
-// │   │   ├── Player.js
-// │   │   ├── Score.js
-// │   │   └── UI.js
-// │   ├── models
-// │   │   ├── GameState.js
-// │   │   └── Questions.js
-// │   ├── services
-// │   │   └── GameLogic.js
-// │   └── utils
-// │       ├── constants.js
-// │       └── helpers.js
-// ├── tests
-// │   └── game.test.js
-// ├── package.json
-// ├── .gitignore
-// ├── jest.config.js
-// └── README.md
+// filepath: vsls:/financial-literacy-game/src/components/Game.js
+import React from 'react';
 
+function Game() {
+  return (
+    <div>
+      <h1>Game Screen</h1>
+      {/* Add your game components here */}
+    </div>
+  );
+}
+
+export default Game;
