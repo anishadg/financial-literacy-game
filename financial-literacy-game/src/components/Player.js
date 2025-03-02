@@ -1,20 +1,24 @@
 class Player {
-    constructor(name) {
+    constructor(name, scenario = 'student') {
         this.name = name;
-        this.score = 0;
+        this.scenario = scenario;
+        this.money = 1000; // Starting money
+        this.creditScore = 650;
+        this.skills = new Map();
+        this.assets = [];
+        this.debts = [];
+        this.career = null;
+        this.happiness = 100;
+        this.energy = 100;
     }
 
-    increaseScore(points) {
-        this.score += points;
+    updateFinances(amount) {
+        this.money += amount;
     }
 
-    getScore() {
-        return this.score;
-    }
-
-    getName() {
-        return this.name;
+    updateCreditScore(points) {
+        this.creditScore = Math.max(300, Math.min(850, this.creditScore + points));
     }
 }
 
-export default Player;
+module.exports = Player;

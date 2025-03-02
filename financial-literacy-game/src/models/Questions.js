@@ -1,4 +1,4 @@
-financial-literacy-game
+/*financial-literacy-game
 ├── src
 │   ├── app.js
 │   ├── components
@@ -20,3 +20,4 @@ financial-literacy-game
 ├── .gitignore
 ├── jest.config.js
 └── README.md
+*/

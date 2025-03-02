@@ -1,0 +1,88 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Sniglet', Arial, sans-serif;
+    text-align: center;
+}
+
+/* Welcome screen styles */
+#welcome-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 220vh;
+    background: url('https://files.oaiusercontent.com/file-8oCPPpEWZa23TivE3R4Baw?se=2025-03-01T22%3A42%3A53Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Da5240d99-0fdd-411b-acd7-be4e6626d582.webp&sig=sDG7FcTDlqRWP73KmkDXCwU8wWFA/kLQZNpc9ityWvQ%3D') no-repeat center center;
+    background-size: cover;
+    text-align: center;
+}
+
+#welcome-screen h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#welcome-screen button {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 4px;
+    background: beige;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+#welcome-screen button:hover {
+    transform: translateY(-2px);
+}
+
+/* Hide the game container initially */
+.hidden {
+    display: none;
+}
+
+/* Existing styles */
+#game-container {
+    display: grid;
+    grid-template-columns: 300px 1fr 300px;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.victory {
+    font-size: 10rem;
+    font-weight: bold;
+    color: white;
+    text-shadow: 3px 3px 8px black;
+    margin-top: 190px;
+    margin-left: 40px;
+}
+
+.start-button {
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px black;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 4px;
+    background: white;
+    color: black;
+    cursor: pointer;
+    transition: transform 0.2s;
+    margin-left: 40px;
+}
+
+.start-button:hover {
+    transform: translateY(-2px);
+}
